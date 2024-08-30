@@ -39,6 +39,14 @@ VALUES
 
 ```
 
+
+
+set env var
+```
+export SNOWFLAKE_USER="XX"
+export SNOWFLAKE_PWD="XXX"
+export SNOWFLAKE_JDBC_URI="XXX"
+```
 # DeltaStreame job
 ```
 spark-submit \
